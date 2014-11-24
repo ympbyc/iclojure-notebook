@@ -12,7 +12,7 @@
          {:mode    "subtitle"
           :content "Persistent REPL for Clojure"}
          {:mode    "paragraph"
-          :content "@ympbyc, @..., and @... started hacking on this project when we met at Clojure/conj 2014. Right now the development is focused on the frontend and it's far from complete."}
+          :content "@ympbyc, @SirSkidmore, @mschmornoff, and @athos0220 started hacking on this project when we met at Clojure/conj 2014. Right now the development is focused on the frontend and it's far from complete."}
          {:mode    "clojure"
           :content "(defn fact [n] (if (= n 0) 1 (* n (fact (dec n)))))"}]))
 
