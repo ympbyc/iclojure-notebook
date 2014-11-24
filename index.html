@@ -3,22 +3,28 @@
 <head>
   <meta charset="utf8">
   <title>IClojure Notebook</title>
+  <link rel="stylesheet" href="iclojure.css" />
 </head>
 <body>
-  <h1>ICl [o] Notebook</h1>
+  <div id="content">
+    <h1 class="site-title">iCl [o] Notebook</h1>
 
-  <select id="mode-selection">
-    <option value="clojure">Clojure Code</option>
-    <option value="title">Title</option>
-    <option value="subtitle">Sub Title</option>
-    <option value="paragraph">Paragraph</option>
-  </select>
-
-  <div id="note"></div>
-  <div id="editor">
-    <input type="text" id="cell" />
+    <div id="note"></div>
+    <div id="editor">
+      <input type="text" id="cell" />
+      <select id="mode-selection">
+        <option value="clojure">Clojure Code</option>
+        <option value="title">Title</option>
+        <option value="subtitle">Sub Title</option>
+        <option value="paragraph">Paragraph</option>
+      </select>
+    </div>
+    <div id="import-export">
+      <button disabled>Import from gist</button>
+      <button id="export-edn">Export as EDN</button>
+      <button id="export-html" disabled>Export as HTML</button>
+    </div>
   </div>
-
   <script src="target/main.js"></script>
 </body>
 </html>

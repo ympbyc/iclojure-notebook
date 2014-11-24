@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'baramond';
+    src: url('resources/fonts/baramond/Baramond.ttf') format('truetype');
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url("resources/imgs/bkg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin: 0;
+}
+
+p,
+#note h1 {
+    font-family: "baramond";
+}
+
+#note {
+    width: 100%;
+    margin: 0;
+}
+
+#content {
+    width: 640px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: url("resources/imgs/paper copy.png");
+}
+
+.site-title {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    background: #4C9ED9;
+    color: #fff;
+    margin: -20px -20px 20px -20px;
+    padding: 10px 10px;
+}
+
+#cell {
+    border: none;
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+    font-size: 1.2em;
+    font-family: baramond;
+    background: rgba(0,0,0,0.05);
+}
+
+.cell-done {
+    width: 100%;
+    overflow: scroll;
+}
+
+#mode-selection {
+    float: right;
+    width: 160px;
+    height: 30px;
+    position: relative;
+    top: -47px;
+    margin: 0;
+}
+
+
+pre.cell-done {
+    border: 1px solid #4c9ed9;
+    border-radius: 2px;
+    padding: 4px;
+    background: rgba(255,255,255,0.8);
+    font-family: monaco, menlo, Courier, monospace;
+    font-size: 12px;
+}
+
+h2.cell-done {
+    font-size: 1.3em;
+    font-weight: 200;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
