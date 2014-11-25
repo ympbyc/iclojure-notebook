@@ -31,9 +31,9 @@ p,
 
 #content {
     width: 640px;
-    height: 100%;
     margin: 0 auto;
     padding: 20px;
+    background-repeat: repeat;
     background: url("resources/imgs/paper copy.png");
 }
 
