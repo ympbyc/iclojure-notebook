@@ -58,7 +58,7 @@ p,
 
 .cell-done {
     width: 100%;
-    overflow: scroll;
+    overflow: none;
 }
 
 #mode-selection {
